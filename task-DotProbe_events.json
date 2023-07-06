@@ -1,0 +1,71 @@
+{
+  "duration": {
+    "LongName": "Event duration",
+    "Description": "Duration of the event (measured from onset) in seconds. Must always be either zero or positive. A \"duration\" value of zero implies that the delta function or event is so short as to be effectively modeled as an impulse.",
+    "Units": "second"
+  },
+  "sample": {
+    "LongName": "Sample",
+    "Description": "Onset of the event according to the sampling scheme of the recorded modality"
+  },
+  "trial_type": {
+    "LongName": "Event categorization",
+    "Description": "Primary categorisation of each trial to identify them as instances of the experimental conditions."
+  },
+  "response_time": {
+    "LongName": "Response time",
+    "Description": "Response time measued in seconds.",
+    "Units": "second"
+  },
+  "stim_file": {
+    "LongName": "Stimulus file location",
+    "Description": "Represents the location of the stimulus file (image, video, sound etc.) presented at the given onset time. They should be stored in the /stimuli folder (under the root folder of the dataset; with optional subfolders). The values under the stim_file column correspond to a path relative to \"/stimuli\"."
+  },
+  "onset": {
+    "LongName": "Event onset",
+    "Description": "Onset (in seconds) of the event measured from the beginning of the acquisition of the first volume in the corresponding task imaging data file",
+    "Units": "second"
+  },
+  "value": {
+    "LongName": "Event marker",
+    "Description": "Marker value associated with the event",
+    "Levels": {
+	   "251": "Stimulus - dots vertically, target left, neutral-angry, non-inhibitory, female faces",
+	   "135": "Stimulus - dots vertically, target right, neutral-angry, inhibitory, female faces",
+	   "199": "Stimulus - dots horizontally, target left, neutral-angry, inhibitory, female faces",
+	   "167": "Stimulus - dots horizontally, target right, neutral-angry, non-inhibitory, female faces",
+    	   "231": "Stimulus - dots vertically, target left, angry-neutral, non-inhibitory, female faces",
+	   "151": "Stimulus - dots vertically, target right, angry-neutral, inhibitory, female faces",
+	   "215": "Stimulus - dots horizontally, target left, angry-neutral, inhibitory, female faces",
+	   "183": "Stimulus - dots horizontally, target right, angry-neutral, non-inhibitory, female faces",
+           "207": "Stimulus - dots vertically, target left, neutral-angry, non-inhibitory, male faces",
+	   "175": "Stimulus - dots vertically, target right, neutral-angry, inhibitory, male faces",
+	   "239": "Stimulus - dots horizontally, target left, neutral-angry, inhibitory, male faces",
+	   "159": "Stimulus - dots horizontally, target right, neutral-angry, non-inhibitory, male faces",
+    	   "223": "Stimulus - dots vertically, target left, angry-neutral, non-inhibitory, male faces",
+	   "191": "Stimulus - dots vertically, target right, angry-neutral, inhibitory, male faces",
+	   "255": "Stimulus - dots horizontally, target left, angry-neutral, inhibitory, male faces",
+	   "209": "Stimulus - dots horizontally, target right, angry-neutral, non-inhibitory, male faces",
+    	   "145": "Stimulus - dots vertically, target left, neutral-neutral, non-inhibitory, female faces",
+	   "144": "Stimulus - dots vertically, target right, neutral-neutral, inhibitory, female faces",
+	   "300": "Stimulus - dots horizontally, target left, neutral-neutral, inhibitory, female faces",
+	   "176": "Stimulus - dots horizontally, target right, neutral-neutral, non-inhibitory, female faces",
+    	   "216": "Stimulus - dots vertically, target left, neutral-neutral, non-inhibitory, male faces",
+	   "184": "Stimulus - dots vertically, target right, neutral-neutral, inhibitory, male faces",
+	   "248": "Stimulus - dots horizontally, target left, neutral-neutral, inhibitory, male faces",
+	   "232": "Stimulus - dots horizontally, target right, neutral-neutral, non-inhibitory, male faces",
+    
+	   "236": "Stimulus -  neutral-angry, male faces",
+	   "246": "Stimulus -  angry-neutral, female faces",
+	   "210": "Stimulus -  angry-neutral, male faces",
+	   "186": "Stimulus -  neutral-angry, female faces",
+	   "142": "Stimulus -  neutral-neutral, female faces",
+	   "206": "Stimulus -  neutral-neutral, male faces",
+	   
+	   "208": "Stimulus -  cross",
+
+	   "998": "Response -  correct",
+	   "999": "Response -  wrong"
+	}
+  }
+}
