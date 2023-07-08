@@ -1,12 +1,15 @@
 {
-  "Authors": [
-    "Szymon Mąka",
-    "Marta Chrustowicz",
-    "Łukasz Okruszek"
-  ],
-  "Name": "Can we dissociate hypervigilance to social threats from altered perceptual decision-making processes in lonely individuals? An exploration with Drift Diffusion Modelling and EEG event-related potentials.",
-  "License": "CC0",
-  "ReferencesAndLinks": [""],
-  "BIDSVersion": "1.8.0",
-  "HEDVersion": "8.1.0"
+    "Authors": [
+        "Szymon Mąka",
+        "Marta Chrustowicz",
+        "Łukasz Okruszek"
+    ],
+    "Name": "Can we dissociate hypervigilance to social threats from altered perceptual decision-making processes in lonely individuals? An exploration with Drift Diffusion Modelling and EEG event-related potentials.",
+    "License": "CC0",
+    "ReferencesAndLinks": [
+        ""
+    ],
+    "BIDSVersion": "1.8.0",
+    "HEDVersion": "8.1.0",
+    "DatasetDOI": "doi:10.18112/openneuro.ds004626.v1.0.0"
 }
