@@ -1,4 +1,4 @@
-participant_id	Group	Age	Sex	Edu_years
+participant_id	group	age	sex	edu_years
 sub-H001	lonely	25	Male	12
 sub-H002	lonely	27	Female	17
 sub-H003	lonely	31	Female	17
