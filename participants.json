@@ -2,16 +2,16 @@
   "participant_id": {
     "Description": "Unique participant label"
   },
-  "Group": {
+  "group": {
     "Description": "Participant group label"
   },
- "Age": {
+ "age": {
     "Description": "Age of participant in years"
   },
- "Sex": {
+ "sex": {
     "Description": "Sex of participant"
   },
- "Edu_years": {
+ "edu_years": {
     "Description": "Number of years of education"
   }
 }
