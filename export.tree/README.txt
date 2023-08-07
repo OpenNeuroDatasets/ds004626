@@ -1,0 +1,1 @@
+This is data from manuscript entitled "Can we dissociate hypervigilance to social threats from altered perceptual decision-making processes in lonely individuals? An exploration with Drift Diffusion Modelling and EEG event-related potentials." which is currently under review at "Psychophysiology".
